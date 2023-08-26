@@ -1,6 +1,10 @@
-# Koa-api-builder
+# [Koa-api-builder](https://github.com/sombriks/koa-api-builder)
 
-Helper to build koa-router apis easily
+![tests and coverage](https://github.com/sombriks/koa-api-builder/actions/workflows/node.js.yml/badge.svg)
+[![npm version](https://img.shields.io/npm/v/koa-api-builder?style=plastic)](https://www.npmjs.com/package/koa-api-builder)
+[![license](https://img.shields.io/github/license/sombriks/koa-api-builder.svg)](LICENSE)
+
+Helper to build [koa-router](https://github.com/koajs/router) apis easily
 
 ## Dependencies
 
@@ -44,5 +48,7 @@ This api builder is heavily copied from [Javalin's group handler](https://javali
 
 - [X] Initial implementation
 - [X] Test coverage
-- [ ] Publish npm package
-- 
+- [X] Publish npm package
+- [ ] Add special `render` pseudo-verb for template engines
+- [ ] Add Server Sent Events configuration support
+- [ ] Add WebSockets configuration support
