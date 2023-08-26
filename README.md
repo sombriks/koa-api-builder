@@ -15,12 +15,12 @@ Helper to build [koa-router](https://github.com/koajs/router) apis easily
 ## Sample usage
 
 ```javascript
-import Group from "koa-api-builder";
+import ApiBuilder from "koa-api-builder";
 
-const group = new Group().path('/', (group) => {
-  group.post('login', loginRequest)
-    .post('signup', signupRequest)
-    .path('user/:userId/accounts', ifAuthenticated, (group) => {
+const group = new ApiBuilder().path((group) => {
+  group.post('/login', loginRequest)
+    .post('/signup', signupRequest)
+    .path('/user/:userId/accounts', ifAuthenticated, (group) => {
       group.get(listAccountsRequest)
         .post(ifAllowed, insertAccountRequest)
         .path('/:accountId', (group) => {
