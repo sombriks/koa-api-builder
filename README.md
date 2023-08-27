@@ -52,6 +52,8 @@ This api builder is heavily copied from [Javalin's group handler](https://javali
 - [X] Add linting tool
 - [X] Publish every new tag
 - [ ] Publish coverage results
-- ~~[ ] Add special `render` pseudo-verb for template engines~~
+- [ ] ~~Add special `render` pseudo-verb for template engines~~
 - [ ] Add Server Sent Events configuration support
 - [ ] Add WebSockets configuration support
+
+See the [changelog](CHANGELOG.md) for more details
