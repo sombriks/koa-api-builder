@@ -8,7 +8,7 @@ Helper to build [koa-router](https://github.com/koajs/router) apis easily
 
 ## Dependencies
 
-- node 14 or higher 
+- node 14 or higher
 - koa-router
 - koa
 
@@ -47,8 +47,10 @@ This api builder is heavily copied from [Javalin's group handler](https://javali
 ## Roadmap
 
 - [X] Initial implementation
-- [X] Test coverage
+- [X] Test and coverage
 - [X] Publish npm package
-- [ ] Add special `render` pseudo-verb for template engines
+- [X] Add linting tool
+- [ ] Publish coverage results
+- ~~[ ] Add special `render` pseudo-verb for template engines~~
 - [ ] Add Server Sent Events configuration support
 - [ ] Add WebSockets configuration support
