@@ -1,3 +1,4 @@
+# manually perform npm version major/minor/patch locally then push the commit and the tag
 name: Publish npm package
 
 on:
